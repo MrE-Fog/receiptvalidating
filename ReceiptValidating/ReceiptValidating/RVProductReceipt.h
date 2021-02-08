@@ -19,9 +19,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) NSString *originalTransactionId;
 @property (nonatomic, strong) NSDate *purchaseDate;
 @property (nonatomic, strong) NSDate *originalPurchaseDate;
+@property (nonatomic, strong) NSNumber *webOrderId;
 @property (nonatomic, strong, nullable) NSDate *expiryDate;
 @property (nonatomic, strong, nullable) NSDate *cancelledDate;
-@property (nonatomic, strong, nullable) NSNumber *webOrderId;
 
 @end
 
